@@ -7,9 +7,9 @@ Check out the [live site!](https://relaxed-swartz-4fc176.netlify.app/).
 
 ## Tech used
 
--ReactJs
--Axios
--Material UI
+- ReactJs
+- Axios
+- Material UI
 
 TravelPartner uses GoogleMaps, and its places api to autocomplete searches,
 and the travel advisor api to get all of the info about places around the coordinates,
