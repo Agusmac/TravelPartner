@@ -1,5 +1,7 @@
 # TravelPartner
 
+![Travel Advisor](https://github.com/Agusmac/TravelPartner/blob/main/exampleImg/expImg.png?raw=true)
+
 Travel Partner let's you know everything about the cities you will visit beforehand
 to help you make a great planned vacation 
 
