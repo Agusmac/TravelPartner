@@ -1,6 +1,6 @@
 # TravelPartner
 
-Check Out the live [Site!](https://relaxed-swartz-4fc176.netlify.app/).
+Check Out the live [site!](https://relaxed-swartz-4fc176.netlify.app/).
 
 ## Available Scripts
 
