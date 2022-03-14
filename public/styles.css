@@ -1,0 +1,72 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  
+}
+.lister{
+  overflow: auto;
+  height: 75vh;
+  margin: 0 10px 0 25px;
+}
+.theCard{
+  margin: 10px auto;
+}
+.loader{
+  border:5px solid rgb(85, 159, 209);
+  border-top: 5px solid rgb(156, 215, 250);
+  border-radius:50%;
+  width:150px;
+  height:150px;
+  animation:spin 0.8s linear infinite;
+  margin:25vh auto;
+}
+@keyframes spin{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg)
+    }
+}
+.InsideDiv :hover{
+ z-index: 100;
+ cursor: pointer;
+ position: relative;
+
+}
