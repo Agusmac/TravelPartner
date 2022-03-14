@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# TravelPartner
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Check Out the live [Site!](https://relaxed-swartz-4fc176.netlify.app/).
 
 ## Available Scripts
 
