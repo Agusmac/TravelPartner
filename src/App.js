@@ -9,7 +9,8 @@ import getInfo from "./Api/Api"
 
 export default function App({value}) {
     // { bgc: "#1e1e1e", col: "#ececec"}
-    const [theme, setTheme] = useState({ bgc: "white", col: "black" })
+    // const [theme, setTheme] = useState({ bgc: "white", col: "black" })
+        const theme = { bgc: "white", col: "black" }
     // probably will add dark theme someday
 
     const [isLoading, setIsLoading] = useState(false)
