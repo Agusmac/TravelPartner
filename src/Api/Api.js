@@ -21,7 +21,7 @@ export default async function getInfo(type, limits,altKey) {
 
     return filteredData
   } catch (error) {
-    getInfo(type, limits,process.env.REACT_APP_TRAVEL_KEY2)
+    // getInfo(type, limits,process.env.REACT_APP_TRAVEL_KEY2)
     console.log(error)
   }
 
