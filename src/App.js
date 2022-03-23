@@ -53,12 +53,12 @@ export default function App({value}) {
         <div style={{ backgroundColor: theme.bgc, color: theme.col, height: '100vh' }} >
             <Navbar setCoordinates={setCoordinates}/>
             <Grid container="true" spacing={3} style={{ marginTop: "0" }}>
-                <Grid item="true" xs={12} md={4} style={{ background: theme.bgc, color: theme.col, height: '85vh', width: '100%', }}>
+                <Grid item="true" sm={12} md={4} style={{ background: theme.bgc, color: theme.col, height: '85vh', width: '100%', }}>
                     <InfoScroll 
                     data={data}
                     setType={setType} setStars={setStars} stars={stars}  type={type} isLoading={isLoading} />
                 </Grid>
-                <Grid item="true" xs={12} md={8} style={{ background: theme.bgc, color: theme.col, height: '85vh', width: '100%', }}>
+                <Grid item="true" sm={12} md={8} style={{ background: theme.bgc, color: theme.col, height: '85vh', width: '100%', }}>
                     <GogMap setLimits={setLimits} data={data} coordinates={coordinates} setCoordinates={setCoordinates} />
                 </Grid>
             </Grid>
