@@ -47,6 +47,8 @@ export default function App({value}) {
     }, [type, limits,stars])
 
 
+    
+
     return (
         <div style={{ backgroundColor: theme.bgc, color: theme.col, height: '100vh' }} >
             <Navbar setCoordinates={setCoordinates}/>
